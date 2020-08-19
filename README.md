@@ -84,8 +84,8 @@ Install dependancies that will create an environment for the app to run
 #### Make and run migrations
 ```bash
 python3.6 manage.py check
-python manage.py makemigrations news
-python3.6 manage.py sqlmigrate news 0001
+python manage.py makemigrations <Name of application>
+python3.6 manage.py sqlmigrate <Name of application> 0001
 python3.6 manage.py migrate
 ```
 
