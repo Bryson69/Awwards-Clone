@@ -11,6 +11,16 @@ A web application whereby you can view projects or pitched ideas by other people
 ### Here is a sneak peek on how it looks...
 
 ![](screenshotss/img1.png)
+<<<<<<< HEAD
+=======
+![](screenshotss/img3.png)
+
+### This is when the user has already added a post 
+
+![](screenshotss/img4.png)
+![](screenshotss/img5.png)
+![](screenshotss/img6.png)
+>>>>>>> 4818770425ee1b999c405ce8b7b1d911fd1eb4fb
 
 ## User Stories
 
