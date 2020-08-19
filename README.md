@@ -97,7 +97,8 @@ Open [localhost:8000](http://127.0.0.1:8000/)
 
 # How it works
 * User needs to sign up.
-* A User the needs to sign in to the awwwards account and post a project
+* Click on a project you want to view
+* If you like the project idea then you can vote for it . 
 
 # CREDITS
 ##### Google.com ⭐️ StackOverflow.com ⭐️ &  Awwwards:star:.
