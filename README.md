@@ -4,6 +4,10 @@
 
 ## Live Site [Instagram Clone]() 
 
+### Here is a sneek peek on how it looks...
+
+![](screenshotss/img1.png)
+
 
 
 ## Description
