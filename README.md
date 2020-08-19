@@ -41,7 +41,6 @@ A web application whereby you can view projects or pitched ideas by other people
 * On your terminal run `python3.6 manage.py runserver`
 * Access the live site using the local host provided
 
-
 #### Clone the Repo and rename it.
 ```bash
 git clone
@@ -114,7 +113,6 @@ None so far.
 - Django framework
 - Bootstrap
 - PostgreSQl
-
 
 ### License
 **[MIT](./LICENSE)** (c) 2020 **[Bryson Mundia]()**
