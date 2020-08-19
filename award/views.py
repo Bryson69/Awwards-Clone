@@ -81,7 +81,6 @@ def project_detail(request,project_id):
         form=RateForm()
 
     #logic
-
     votes=Rates.objects.filter(project=project_id)
     usability=[]
     design=[]
@@ -129,18 +128,6 @@ def project_detail(request,project_id):
     except Exception as e:
         raise Http404()
     return render(request,'details.html',{'projects':projects,'form':form,'usability':average_usa,'design':average_des,'content':average_con,'average':averageRating,'auth':auth,'all':all,'ave':ave,'review':review,'comments':user_comment})
-
-# def ajaxRequest(request,project_id):
-#     if request.method=='POST':
-#         form=RateForm(request.POST)
-#         if form.is_valid():
-#             rate=form.save(commit=False)
-#             rate.user=request.user
-#             rate.project=project_id
-#             rate.save()
-#             data={'success':'Your ratings have been recorded successfully '}
-#             return JsonResponse(data)
-
 def search(request):
 
     if 'name' in request.GET and   request.GET['name']:
@@ -161,15 +148,16 @@ class ProjectList(APIView):
         serializers=ProjectSerializer(all_projects,many=True)
         return Response(serializers.data)
 
-
-class ProfileList(APIView):
-    def get(self,request,format=None):
-        all_profiles=Profile.objects.all()
-        serializers=ProfileSerializer(all_profiles,many=True)
-        return Response(serializers.data)
 @login_required(login_url='/accounts/login/')
 def apiView(request):
     current_user=request.user
     title="Api"
     profis=Profile.objects.filter(user=current_user)[0:1]
     return render(request,'api.html',{"title":title,'profile':profis})
+
+
+class ProfileList(APIView):
+    def get(self,request,format=None):
+        all_profiles=Profile.objects.all()
+        serializers=ProfileSerializer(all_profiles,many=True)
+        return Response(serializers.data)
