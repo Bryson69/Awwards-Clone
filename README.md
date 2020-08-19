@@ -11,13 +11,6 @@ A web application whereby you can view projects or pitched ideas by other people
 ### Here is a sneak peek on how it looks...
 
 ![](screenshotss/img1.png)
-![](screenshotss/img3.png)
-
-### This is when the user has already added a post 
-
-![](screenshotss/img4.png)
-![](screenshotss/img5.png)
-![](screenshotss/img6.png)
 
 ## User Stories
 
@@ -46,7 +39,7 @@ A web application whereby you can view projects or pitched ideas by other people
 > A User the needs to sign in to the awwwards account and post a project
 
 # CREDITS
-##### Google.com ⭐️ StackOverflow.com ⭐️ & :star:.
+##### Google.com ⭐️ StackOverflow.com ⭐️ &  Awwwards:star:.
 
 # Support and Contacts
 In case You have any issues using this code please do no hesitate to get in touch with me through brysonmundia@gmail.com or leave a comment here on Github.
