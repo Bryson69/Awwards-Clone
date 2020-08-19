@@ -2,7 +2,7 @@
 
 ## By BrysonMundia (https://github.com/Bryson69)😎 
 
-## Live Site [Awwwards]() 
+## Live Site [Awwwards](https://awwwarda123.herokuapp.com/) 
 
 ## Description
 
@@ -43,7 +43,7 @@ A web application whereby you can view projects or pitched ideas by other people
 
 #### Clone the Repo and rename it.
 ```bash
-git clone
+git clone 'https://awwwarda123.herokuapp.com/'
 ```
 #### Initialize git and add the remote repository
 ```bash
