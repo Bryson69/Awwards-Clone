@@ -12,7 +12,9 @@ A web application whereby you can view projects or pitched ideas by other people
 
 ### Here is a sneek peek of How it looks
 
-![](award/static/img/img5.png)
+![alt text](award/static/img/img5.png)
+
+![]()
 ![](award/static/img/img3.png)
 
 
