@@ -1,18 +1,19 @@
-# INSTAGRAM CLONE
+# Awwwards Clone
 
 ## By BrysonMundia (https://github.com/Bryson69)😎 
 
-## Live Site [Instagram Clone](https://instaclone345.herokuapp.com/) 
+## Live Site [Instagram Clone]() 
 
 
 
 ## Description
 
-A web application whereby you can view projects or pitched ideas by other people. Auser can also vote on a project.
+A web application whereby you can view projects or pitched ideas by other people. A user can also vote on a project.
 
 ### Here is a sneak peek of How it looks
 
-![](screenshotss/img1.png)
+![Alt text](award/static/img/1.png)
+![Alt text](award/static/img/2.png?)
 
 ## User Stories
 
@@ -56,14 +57,6 @@ Change the user login does not function properly.
 - Django framework
 - Bootstrap
 - PostgreSQL
-
-## :computer: Installation
-Get the real application on snapstore.
-Available for Windows, macOS, and Linux.
-
-> For linux users. You can directly install it from SnapStore.
-
-[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://github.com/Bryson69/Instagram-Clone)
 
 ### License
 **[MIT](./LICENSE)** (c) 2020 **[Bryson Mundia]()**
