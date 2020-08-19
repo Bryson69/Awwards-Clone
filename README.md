@@ -6,8 +6,7 @@
 
 ### Here is a sneek peek of how it looks like
 
-![Alt text](awwwards/media/screenshot/Screenshot from 2020-08-19 16-39-16.png)
-![Alt text](award/static/img/2.png?)
+
 
 ## Description
 
