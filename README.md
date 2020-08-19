@@ -42,7 +42,7 @@ A web application whereby you can view projects or pitched ideas by other people
 * Access the live site using the local host provided
 
 
-#### Clone the Repo and rename it to suit your needs.
+#### Clone the Repo and rename it.
 ```bash
 git clone
 ```
