@@ -10,13 +10,9 @@
 
 A web application whereby you can view projects or pitched ideas by other people. Auser can also vote on a project.
 
-### Here is a sneek peek of How it looks
+### Here is a sneak peek of How it looks
 
-![alt text](award/static/img/img5.png)
-
-![]()
-![](award/static/img/img3.png)
-
+![](screenshotss/img1.png)
 
 ## User Stories
 
