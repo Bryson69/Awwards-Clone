@@ -34,7 +34,7 @@ A web application whereby you can view projects or pitched ideas by other people
 
 ## Setup/Installation Requirements
 * internet access
-* $ git clone https://github.com/Bryson69/Instagram-Clone
+* $ git clone 
 * $ cd blog-app
 * $ python3.6 -m venv virtual (install virtual environment)
 * $ source virtual/bin/activate
