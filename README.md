@@ -36,8 +36,8 @@ A web application whereby you can view projects or pitched ideas by other people
 * Fork the data onto your own personal repository.
 * Clone Project to your machine
 * Activate a virtual environment on terminal: `source virtual/bin/activate`
-* Install all the requirements found in requirements file. ```bash pip install -r requirements.txt```
-* Then ```bash python manage.py makemigrations``` ```bash python manage.py migrate```
+* Install all the requirements found in requirements file. `pip install -r requirements.txt`
+* Then ` python manage.py makemigrations` `python manage.py migrate`
 * On your terminal run `python3.6 manage.py runserver`
 * Access the live site using the local host provided
 
