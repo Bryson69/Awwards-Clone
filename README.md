@@ -4,20 +4,20 @@
 
 ## Live Site [Instagram Clone]() 
 
-### Here is a sneek peek on how it looks...
-
-![](screenshotss/img1.png)
-
-
-
 ## Description
 
 A web application whereby you can view projects or pitched ideas by other people. A user can also vote on a project.
 
 ### Here is a sneak peek of How it looks
 
-![Alt text](award/static/img/1.png)
-![Alt text](award/static/img/2.png?)
+![](screenshotss/img1.png)
+![](screenshotss/img3.png)
+
+### This is when the user has already added a post 
+
+![](screenshotss/img4.png)
+![](screenshotss/img5.png)
+![](screenshotss/img6.png)
 
 ## User Stories
 
