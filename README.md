@@ -18,7 +18,6 @@ A web application whereby you can view projects or pitched ideas by other people
 ![](screenshotss/img4.png)
 ![](screenshotss/img5.png)
 ![](screenshotss/img6.png)
->>>>>>> 4818770425ee1b999c405ce8b7b1d911fd1eb4fb
 
 ## User Stories
 
