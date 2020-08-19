@@ -43,7 +43,7 @@ A web application whereby you can view projects or pitched ideas by other people
 
 #### Clone the Repo and rename it.
 ```bash
-git clone 'https://awwwarda123.herokuapp.com/'
+git clone (https://awwwarda123.herokuapp.com/)
 ```
 #### Initialize git and add the remote repository
 ```bash
