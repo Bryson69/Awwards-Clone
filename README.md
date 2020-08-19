@@ -2,7 +2,7 @@
 
 ## By BrysonMundia (https://github.com/Bryson69)😎 
 
-## Live Site [Instagram Clone]() 
+## Live Site [Awwwards]() 
 
 ## Description
 
@@ -11,8 +11,6 @@ A web application whereby you can view projects or pitched ideas by other people
 ### Here is a sneak peek on how it looks...
 
 ![](screenshotss/img1.png)
-<<<<<<< HEAD
-=======
 ![](screenshotss/img3.png)
 
 ### This is when the user has already added a post 
