@@ -52,13 +52,13 @@ A web application whereby you can view projects or pitched ideas by other people
 In case You have any issues using this code please do no hesitate to get in touch with me through brysonmundia@gmail.com or leave a comment here on Github.
 
 ## Known Bugs
-Change the user login does not function properly.
+None so far.
 
 ## Technologies Used
 - Python3.6
 - Django framework
 - Bootstrap
-- PostgreSQL
+- PostgreSQl
 
 ### License
 **[MIT](./LICENSE)** (c) 2020 **[Bryson Mundia]()**
