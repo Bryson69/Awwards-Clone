@@ -32,18 +32,72 @@ A web application whereby you can view projects or pitched ideas by other people
 ## Prerequisites
 * Python3.6
 
-## Setup/Installation Requirements
-* internet access
-* $ git clone 
-* $ cd blog-app
-* $ python3.6 -m venv virtual (install virtual environment)
-* $ source virtual/bin/activate
-* $ python3.6 -m pip install -r requirements.txt (install all dependencies)
-* $ python3 run.py
+## Setup and installations
+* Fork the data onto your own personal repository.
+* Clone Project to your machine
+* Activate a virtual environment on terminal: `source virtual/bin/activate`
+* Install all the requirements found in requirements file. ```bash pip install -r requirements.txt```
+* Then ```bash python manage.py makemigrations``` ```bash python manage.py migrate```
+* On your terminal run `python3.6 manage.py runserver`
+* Access the live site using the local host provided
+
+
+#### Clone the Repo and rename it to suit your needs.
+```bash
+git clone
+```
+#### Initialize git and add the remote repository
+```bash
+git init
+```
+```bash
+git remote add origin <your-repository-url>
+```
+
+#### Create and activate the virtual environment
+```bash
+python3.6 -m virtualenv virtual
+```
+
+```bash
+source virtual/bin/activate
+```
+
+#### Setting up environment variables
+Create a `.env` file and paste paste the following filling where appropriate:
+```
+SECRET_KEY='rdtfyguihjohucbdsjnc'
+DEBUG=True
+DB_NAME='tribune'
+DB_USER='<your database name>'
+DB_PASSWORD='<password to your database>'
+DB_HOST='127.0.0.1'
+MODE='dev'
+ALLOWED_HOSTS='.localhost', '.herokuapp.com', '.127.0.0.1'
+DISABLE_COLLECTSTATIC=1
+```
+
+#### Install dependancies
+Install dependancies that will create an environment for the app to run
+`pip install -r requirements.txt`
+
+#### Make and run migrations
+```bash
+python3.6 manage.py check
+python manage.py makemigrations news
+python3.6 manage.py sqlmigrate news 0001
+python3.6 manage.py migrate
+```
+
+#### Run the app
+```bash
+python3.6 manage.py runserver
+```
+Open [localhost:8000](http://127.0.0.1:8000/)
 
 # How it works
-> User needs to sign up.
-> A User the needs to sign in to the awwwards account and post a project
+* User needs to sign up.
+* A User the needs to sign in to the awwwards account and post a project
 
 # CREDITS
 ##### Google.com ⭐️ StackOverflow.com ⭐️ &  Awwwards:star:.
@@ -59,6 +113,7 @@ None so far.
 - Django framework
 - Bootstrap
 - PostgreSQl
+
 
 ### License
 **[MIT](./LICENSE)** (c) 2020 **[Bryson Mundia]()**
